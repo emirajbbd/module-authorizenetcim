@@ -314,4 +314,7 @@
       <argument name="config" xsi:type="object">Pmclain\AuthorizenetCim\Gateway\Config\Config</argument>
     </arguments>
   </type>
+    <type name="Magento\Framework\View\Asset\Minification">
+        <plugin name="preventAcceptJsMinification" type="Pmclain\AuthorizenetCim\Plugin\View\MinificationPlugin" />
+  </type>
 </config>
